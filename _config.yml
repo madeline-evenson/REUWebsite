@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Madeline Evenson"
+title                    : "Madeline Evenson - Astrophysics Student"
 title_separator          : "-"
 name                     : &name "Madeline Evenson"
 description              : &description "Research Assistant Professor and Zooniverse Director"
@@ -25,7 +25,7 @@ author:
   avatar           : "IMG_4994.jpg"
   name             : "Madeline Evenson"
   pronouns         : "she/her/hers"  
-  bio              : "Astrophysics Undergraduate Student"
+  bio              : "Undergraduate Student"
   location         : "Lawrence, KS"
   employer         : "University of Kansas"
   uri              : # URL
