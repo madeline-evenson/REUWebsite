@@ -7,9 +7,9 @@ author_profile: true
 {% include toc %}
 {% include base_path %}
 
-## Introduction
+## Abstract
 
-My REU summer research project (University of Hawaii, 2006) was to identify planetary nebulae in the nearby starburst galaxy M82, measure [OIII] emission line fluxes, and measure radial velicities from slitless spectroscopy observations from the FOCAS instrument on the Subaru Telescope.
+This study investigates the connections between the emission line spectra of galaxies and their morphological properties. We utilize recent JWST NIRSpec spectroscopic data in three bands to create emission line ratio diagrams. We examine two BPT diagrams showing the relationship between the $[OIII]\lambda 5007 / H\beta$ emission line ratio and the $[NII]\lambda 6584/H\alpha$ and $[SII]\lambda 6718 + 6731/H\alpha$ line ratios, respectively. We also examine two more emission line relationships: first, between the $[OIII]\lambda 5007/[OII]\lambda 3729$ and the $[SIII]\lambda 9531/[SII]\lambda 6717,6731$ emission line ratios, and the relationship between the $[OIII]\lambda 5007/[OII]\lambda 3729$ and the $[([OIII]\lambda 5007+[OII]\lambda 3729)/H\beta$ emission line ratios. We study the connections between these emission line ratios with several morphological properties: the effective radius $R_{eff}$, a measure of how compact/extended a galaxy we define as $\Delta log(R_{eff})$, each galaxy's S\'ersic index, and with the electron density of each galaxy. We find that there is a negative relationship between electron density and $\Delta log(R_{eff})$, along with a possible positive relationship between $\Delta log(R_{eff})$ and the S32 line ratio. 
 
 ## Results
 
