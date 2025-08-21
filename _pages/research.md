@@ -17,23 +17,16 @@ A galaxy's spectrum is created by studying the galaxy's light after it has been 
 
 The purpose of this study is to compare the results of these emission line diagnostics to morphological measurements of these galaxies. We examine the relationships between the aforementioned emission line ratios with several morphological properties: the effective radius $R_{eff}$, which is the radius of a galaxy that contains half of its light (M. Vika et al. 2015), a measure of how compact/extended a galaxy is, each galaxy's S\'ersic index, and with the electron density of each galaxy. 
 
-To determine the significance of these connections, we utilized Spearman tests. These tests provide two results: first, a correlation coefficient, which is a number between $-1$ and $1$ that shows the strength of the relationship between two variables, and second, a p-value, which is a number between $0$ and $1$ that quantifies the probability of observing this result, assuming there is no relationship between the two variables. 
-
-The data used for this study was sourced from the Dawn James Webb Space Telescope (JWST) Archive, which is a repository of public JWST galaxy data  (A. de Graaff et al. 2025) (K. E. Heintz et al. 2024). The spectroscopic data was gathered by JWST's Near-Infrared Spectrograph (NIRSpec)  (P. Jakobsen et al. 2022).
+The data used for this study was sourced from the Dawn James Webb Space Telescope (JWST) Archive, which is a repository of public JWST galaxy data  (A. de Graaff et al. 2025) (K. E. Heintz et al. 2024). The spectroscopic data was gathered by JWST's Near-Infrared Spectrograph (NIRSpec)  (P. Jakobsen et al. 2022) across three bands (G140, G235, G395).
 
 The morphology of each galaxy in the sample was analyzed using eight JWST images of the galaxy (A. de Graaff et al. 2025) (K. E. Heintz et al. 2024). From these images, the redshift $z$ and mass (measured in solar masses \(M_\odot\)) were measured. Profiles were then fit to galaxies using the pysersic code de (I. Pasha & T. B. Miller 2023). Throughout this process, each galaxy was assumed to follow a S\'ersic profile  (J. L. Sersic 1968). The S\'ersic index, a number representing the shape of the galaxy's light distribution, was then measured for each galaxy. Each of the eight JWST images measures slightly different $R_{eff}$ and S\'ersic index values, so these $R_{eff}$ and S\'ersic index values were then interpolated to the rest frame wavelength of $5000\textrm{\AA}$ using SciPy's B-Spline interpolation software  (P. Virtanen et al. 2020). The observed size of galaxies correlates with both masses and redshift. This means that if we compare the galaxy size directly to the line ratio, it would be difficult to decipher whether any connections are due to differences in size or due to correlations with mass and redshift. To remove these confounding effects, a model was fit to describe the average size of a galaxy as a function of radius, mass, and redshift. 
 
-## Presentations & Publication
+## Methods
 
-I presented initial results as a poster at the 209th Meeting of the American Astronomical Society: [Poster 156.02](https://ui.adsabs.harvard.edu/abs/2006AAS...20915602J/abstract).
+Each spectrum was moved into rest-frame wavelengths and had its continuum removed. An SNR-based Gaussian emission line fitting method line was utilized, and if the same emission line was detected across multiple bands, the band with the highest SNR was utilized. Several tests were performed in order to ensure the accuracy of this fitting method, including plotting the root-mean-squared of each galaxy spectra in each band and comparing the flux of the same emission line in the same galaxy across multiple bands. 
 
-I completed additional analysis as part of an undergraduate honors thesis and presented the following poster at the 2007 Colby College Undergraduate Research Symposium:
+Four emission line ratio diagrams were created for this study, two of them being BPT diagrams (J. A. Baldwin et al. 1981). Although the original purpose of BPT diagrams were to find AGNs, now they are commonly used to investigate the properties of the gas within galaxies. The two BPT diagrams included in the study compared the $[OIII]\lambda 5007/H\beta$ emission line ratio to either the $[NII]\lambda 6584/H\alpha$ ratio (N2-BPT) or the $[SII]\lambda 6717 + 6731/H\alpha$ ratio (S2-BPT). The two other emission line ratio diagrams created for this study compared the $[OIII]\lambda 5007 / H\beta$ emission line ratio to each the $[SIII]\lambda 9531/[SII]\lambda 6717,6731$ and the $[([OIII]\lambda 5007+[OII]\lambda 3729)/H\beta$ emission line ratios (O32-R23). For the S32 and the O32-R23 diagrams, the emission lines in each ratio are much farther apart than in the N2-BPT and S2-BPT diagrams. This means that dust reddening effects are present in these diagrams, especially for the O32 and the S32 ratios. The PyNeb code was utilized to remove these dust reddening effects ects (V. Luridiana et al. 2015), and then these results were compared to similar plots from A. L. Strom et al. (2017) to verify their accuracy. 
 
-![2007 M82 PNe Research Poster]({{ base_path }}/images/m82pne_poster.png)
-
-Download: [PDF]({{ base_path }}/files/m82pne_poster.pdf)
-
-I published these results in [Johnson et al. 2009, ApJ, 697, 1138](https://dx.doi.org/10.1088/0004-637X/697/2/1138).
 
 ## Acknowledgements
 
