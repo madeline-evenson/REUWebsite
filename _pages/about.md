@@ -10,7 +10,7 @@ redirect_from:
 
 ---------
 
-My name is Madeline Evenson and I am a senior undergraduate student at the [University of Kansas]([https://www.northwestern.edu/](https://www.ku.edu)) in the [Dept. of Physics and Astronomy]([https://physics.northwestern.edu/](https://physics.ku.edu)). I'm double-majoring in astronomy and physics, along with minoring in dance.
+My name is Madeline Evenson and I am a senior undergraduate student at the [University of Kansas](https://www.ku.edu) in the [Dept. of Physics and Astronomy](https://physics.ku.edu). I'm double-majoring in astronomy and physics, along with minoring in dance.
 
 My current research focuses on understanding star formation behavior at spatial scales ranging from that of galaxies down to individual star-forming complexes through the combined study of stellar populations and the interstellar medium. Specifically, I study the formation and evolution of star cluster populations and young pre-main sequence star populations in the Local Group, focusing on how star and cluster formation processes depend on galactic environment. Citizen science and crowdsourcing are important tools in my research.
 
