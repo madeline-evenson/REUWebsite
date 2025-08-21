@@ -17,6 +17,8 @@ A galaxy's spectrum is created by studying the galaxy's light after it has been 
 
 The purpose of this study is to compare the results of these emission line diagnostics to morphological measurements of these galaxies. We examine the relationships between the aforementioned emission line ratios with several morphological properties: the effective radius $R_{eff}$, which is the radius of a galaxy that contains half of its light (M. Vika et al. 2015), a measure of how compact/extended a galaxy is, each galaxy's S\'ersic index, and with the electron density of each galaxy. 
 
+The data used for this study was sourced from the Dawn James Webb Space Telescope (JWST) Archive, which is a repository of public JWST galaxy data  (A. de Graaff et al. 2025) (K. E. Heintz et al. 2024). The spectroscopic data was gathered by JWST's Near-Infrared Spectrograph (NIRSpec)  (P. Jakobsen et al. 2022).
+
 To determine the significance of these connections, we utilized Spearman tests. These tests provide two results: first, a correlation coefficient, which is a number between $-1$ and $1$ that shows the strength of the relationship between two variables, and second, a p-value, which is a number between $0$ and $1$ that quantifies the probability of observing this result, assuming there is no relationship between the two variables. 
 
 ## Presentations & Publication
@@ -30,3 +32,9 @@ I completed additional analysis as part of an undergraduate honors thesis and pr
 Download: [PDF]({{ base_path }}/files/m82pne_poster.pdf)
 
 I published these results in [Johnson et al. 2009, ApJ, 697, 1138](https://dx.doi.org/10.1088/0004-637X/697/2/1138).
+
+## Acknowledgements
+
+(Some of) The data products presented herein were retrieved from the Dawn JWST Archive (DJA). DJA is an initiative of the Cosmic Dawn Center (DAWN), which is funded by the Danish National Research Foundation under grant DNRF140.
+
+This material is based upon work supported by the National Science Foundation (NSF) under Grant Numbers AST-2149425 and AST-2446392. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
