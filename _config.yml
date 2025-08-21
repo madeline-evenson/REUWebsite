@@ -25,7 +25,7 @@ author:
   avatar           : "IMG_4994.jpg"
   name             : "Madeline Evenson"
   pronouns         : "she/her/hers"  
-  bio              : "Undergraduate Student"
+  bio              : "Astrophysics Undergraduate Student"
   location         : "Lawrence, KS"
   employer         : "University of Kansas"
   uri              : # URL
@@ -61,7 +61,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : "https://www.linkedin.com/in/madeline-evenson/"
+  linkedin         : #"https://www.linkedin.com/in/madeline-evenson/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
