@@ -1,6 +1,6 @@
 ---
-permalink: /research/
-title: "Research"
+permalink: /REU/
+title: "Northwestern REU"
 author_profile: true
 ---
 
