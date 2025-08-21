@@ -27,8 +27,16 @@ To analyze the emission line spectra of each galaxy, each spectrum was moved int
 
 Four emission line ratio diagrams were created for this study, two of them being BPT diagrams (J. A. Baldwin et al. 1981). Although the original purpose of BPT diagrams were to find AGNs, now they are commonly used to investigate the properties of the gas within galaxies. The two BPT diagrams included in the study compared the $[OIII]\lambda 5007/H\beta$ emission line ratio to either the $[NII]\lambda 6584/H\alpha$ ratio (N2-BPT) or the $[SII]\lambda 6717 + 6731/H\alpha$ ratio (S2-BPT). The two other emission line ratio diagrams created for this study compared the $[OIII]\lambda 5007 / H\beta$ emission line ratio to each the $[SIII]\lambda 9531/[SII]\lambda 6717,6731$ and the $[([OIII]\lambda 5007+[OII]\lambda 3729)/H\beta$ emission line ratios (O32-R23). For the S32 and the O32-R23 diagrams, the emission lines in each ratio are much farther apart than in the N2-BPT and S2-BPT diagrams. This means that dust reddening effects are present in these diagrams, especially for the O32 and the S32 ratios. The PyNeb code was utilized to remove these dust reddening effects ects (V. Luridiana et al. 2015), and then these results were compared to similar plots from A. L. Strom et al. (2017) to verify their accuracy. 
 
-![N2 and S2 BPTs]({{ base_path }}/images/best_combined_BPT.jpg){:width="500"}
-**Fig 1.** (left) N2-BPT diagram, (right) S2-BPT diagram. (both) The red lines show known $[OIII]/H\beta$ relationships with either $[NII]\lambda 6584/H\alpha$ (left) or $[SII]\lambda 6718 + 6731/H\alpha$ (right), respectively. These relationships come from A. L. Strom et al. (2017).
+<figure style="text-align: center;">
+  <img src="{{ base_path }}/images/best_combined_BPT.jpg" alt="N2 and S2 BPTs" width="500">
+  <figcaption>
+    <strong>Fig. 1.</strong> (left) N2-BPT diagram, (right) S2-BPT diagram. (both) 
+    The red lines show known $[OIII]/H\beta$ relationships with either 
+    $[NII]\lambda 6584/H\alpha$ (left) or 
+    $[SII]\lambda 6718 + 6731/H\alpha$ (right), respectively. 
+    These relationships come from A. L. Strom et al. (2017).
+  </figcaption>
+</figure>
 
 ## Results
 
