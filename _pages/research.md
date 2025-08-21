@@ -38,3 +38,17 @@ I published these results in [Johnson et al. 2009, ApJ, 697, 1138](https://dx.do
 (Some of) The data products presented herein were retrieved from the Dawn JWST Archive (DJA). DJA is an initiative of the Cosmic Dawn Center (DAWN), which is funded by the Danish National Research Foundation under grant DNRF140.
 
 This material is based upon work supported by the National Science Foundation (NSF) under Grant Numbers AST-2149425 and AST-2446392. Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the NSF.
+
+## References
+
+Baldwin, J. A., Phillips, M. M., & Terlevich, R. 1981, PASP, 93, 5, doi: [10.1086/130766](https://iopscience.iop.org/article/10.1086/130766)
+de Graaff, A., Brammer, G., Weibel, A., et al. 2025, A&A, 697, A189, doi: [10.1051/0004-6361/202452186](https://www.aanda.org/articles/aa/full_html/2025/05/aa52186-24/aa52186-24.html)
+Heintz, K. E., Watson, D., Brammer, G., et al. 2024, Science, 384, 890, doi: [10.1126/science.adj0343](https://www.science.org/doi/10.1126/science.adj0343)
+Jakobsen, P., Herruit, P., Alves de Oliveira, C., et al. 2022, A&A, 661, A80, doi: [10.1051/0004-6361/202142663](https://www.aanda.org/articles/aa/full_html/2022/05/aa42663-21/aa42663-21.html)
+Luridiana, V., Morisset, C., & Shaw, R. A. 2015, A&A, 573, A42, doi: [10.1051/0004-6361/201323152](https://www.aanda.org/articles/aa/full_html/2015/01/aa23152-13/aa23152-13.html)
+Maiolino, R., & Mannucci, F. 2019, A&A Rv, 27, 3, doi: [10.1007/s00159-018-0112-2](https://link.springer.com/article/10.1007/s00159-018-0112-2)
+Pasha, I., & Miller, T. B. 2023, Journal of Open Source Software, 8, 5703, doi: [10.21105/joss.05703](https://joss.theoj.org/papers/10.21105/joss.05703)
+Sersic, J. L. 1968, Atlas de Galaxias Australes
+Strom, A. L., Steidel, C. C., Rudie, G. C., et al. 2017, ApJ, 836, 164, doi: [10.3847/1538-4357/836/2/164](https://iopscience.iop.org/article/10.3847/1538-4357/836/2/164)
+Vika, M., Vulcani, B., Bamford, S. P., Haubler, B., & Rojas, A. L. 2015, A&A, 577, A97, doi: [10.1051/0004-6361/201425174](https://www.aanda.org/10.1051/0004-6361/201425174)
+Virtanen, P., Gommers, R., Oliphant, T. E., et al. 2020, Nature Methods, 17, 261, doi: [10.1038/s41592-019-0686-2](https://www.nature.com/articles/s41592-019-0686-2)
