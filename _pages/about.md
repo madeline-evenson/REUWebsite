@@ -14,4 +14,4 @@ My name is Madeline Evenson and I am a senior undergraduate student at the [Univ
 
 My current research focuses on understanding the speed at which gas is used up within galaxies as a function of galaxy environments and different intrinsic galaxy properties. Specifically, I am utilizing archival data from the Herschel Space Observatory to measure the gas content in galaxies in the sample, with plans to calculate the dust and gas masses within these galaxies, and then compute the consumption timescale of gas for these galaxies.
 
-![KU galaxies group]({{ base_path }}/images/image.png){:width="100"}
+![KU galaxies group]({{ base_path }}/images/image.png){:width="300"}
