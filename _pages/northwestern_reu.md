@@ -113,6 +113,12 @@ Throughout this study, we compared the integrated flux of six emission line rati
 
 Overall, most of the relationships we explored throughout this study did not yield significant correlations between morphology and emission line ratios. There are a few ways to interpret these results: first, it is possible that there is little correlation between the gas properties in HII regions and the overall morphology of galaxies. Another possibility is that we are simply not examining the "right" aspects of galaxies to find connections between the two. Interpreting the physical causes of emission lines is complicated because many galaxy properties contribute to these lines. Throughout this project, we took the approach of looking for morphological correlations with the observed emission line ratios, which is relatively simple to implement but can be complicated to interpret due to the aforementioned confounding effects. Future work in this project would be to use the individual emission lines measured throughout this study to do a more detailed calculation of the physical properties of the gas in these galaxies, rather than examining emission line ratios, and look for morphological correlations with these properties. 
 
+## Poster
+
+<figure style="text-align: center;">
+  <img src="{{ base_path }}/images/Evenson REU poster.pdf" alt="poster" width="500">
+</figure>
+
 ## Acknowledgements
 
 (Some of) The data products presented herein were retrieved from the Dawn JWST Archive (DJA). DJA is an initiative of the Cosmic Dawn Center (DAWN), which is funded by the Danish National Research Foundation under grant DNRF140.
