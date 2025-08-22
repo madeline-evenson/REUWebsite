@@ -47,11 +47,10 @@ The first relationship we explored was between a galaxy's $\Delta log(R_{eff})$,
 <figure style="text-align: center;">
   <img src="{{ base_path }}/images/2x2_delta_log_reff_BPT.jpg" alt="delta log reff BPT" width="500">
   <figcaption>
-    <strong>Fig. 2.</strong> (left) N2-BPT diagram, (right) S2-BPT diagram. (both) 
-    The red lines show known $[OIII]/H\beta$ relationships with either 
-    $[NII]\lambda 6584/H\alpha$ (left) or 
-    $[SII]\lambda 6718 + 6731/H\alpha$ (right), respectively. 
-    These relationships come from A. L. Strom et al. (2017).
+    <strong>Fig. 2.</strong> (a) N2-BPT, (b) S2-BPT, (c) S32 diagram, (d) O32-R23 diagram. (all) Blue
+    points represent galaxies with $\Delta log(R_{eff}) > 0$, and green points represent galaxies with
+    $\Delta log(R_{eff}) \leq 0$. We did not find any significant difference in scatter between these
+    different $\Delta log(R_{eff})$ values for any of these plots.
   </figcaption>
 </figure>
 
@@ -60,11 +59,11 @@ We then moved to compare each separate emission line ratio with its distribution
 <figure style="text-align: center;">
   <img src="{{ base_path }}/images/2x3_delta_log_reff_emission_ratios.jpg" alt="delta log reff" width="500">
   <figcaption>
-    <strong>Fig. 3.</strong> (left) N2-BPT diagram, (right) S2-BPT diagram. (both) 
-    The red lines show known $[OIII]/H\beta$ relationships with either 
-    $[NII]\lambda 6584/H\alpha$ (left) or 
-    $[SII]\lambda 6718 + 6731/H\alpha$ (right), respectively. 
-    These relationships come from A. L. Strom et al. (2017).
+    <strong>Fig. 3.</strong> Comparison of $\Delta log(R_{eff})$ with (top left) $log_{10}([NII]\lambda
+    6584/H\alpha)$, (top middle) $log_{10}([SII]\lambda 6718 + 6731/H\alpha)$, (top right) $log_{10}
+    ([OIII]\lambda 5007/H\beta)$, (bottom left) $log_{10}([SIII]\lambda 9531/[SII]\lambda 6717,6731)$, 
+    (bottom middle) $[log_{10}(OIII]\lambda 5007/[OII]\lambda 3729)$, and (bottom right) $log_{10}
+    ([([OIII]\lambda 5007+[OII]\lambda 3729)/H\beta)$.
   </figcaption>
 </figure>
 
@@ -73,11 +72,11 @@ The second morphological feature we studied was each galaxy's S\'ersic index. As
 <figure style="text-align: center;">
   <img src="{{ base_path }}/images/2x3_n_opt_mean_emission_ratios.jpg" alt="n opt mean" width="500">
   <figcaption>
-    <strong>Fig. 4.</strong> (left) N2-BPT diagram, (right) S2-BPT diagram. (both) 
-    The red lines show known $[OIII]/H\beta$ relationships with either 
-    $[NII]\lambda 6584/H\alpha$ (left) or 
-    $[SII]\lambda 6718 + 6731/H\alpha$ (right), respectively. 
-    These relationships come from A. L. Strom et al. (2017).
+    <strong>Fig. 4.</strong> Comparison of mean optical S\'ersic index with (top left) $log_{10}
+    ([NII]\lambda 6584/H\alpha)$, (top middle) $log_{10}([SII]\lambda 6718 + 6731/H\alpha)$, (top right) 
+    $log_{10}([OIII]\lambda 5007/H\beta)$, (bottom left) $log_{10}([SIII]\lambda 9531/[SII]\lambda 
+    6717,6731)$, (bottom middle) $[log_{10}(OIII]\lambda 5007/[OII]\lambda 3729)$, and (bottom right) 
+    $log_{10}([([OIII]\lambda 5007+[OII]\lambda 3729)/H\beta)$.
   </figcaption>
 </figure>
 
@@ -86,11 +85,9 @@ The final morphological feature we examined was the electron density $n_e$ of ea
 <figure style="text-align: center;">
   <img src="{{ base_path }}/images/pyneb_delta_log_reff_electron_density.jpg" alt="electron density" width="500">
   <figcaption>
-    <strong>Fig. 5.</strong> (left) N2-BPT diagram, (right) S2-BPT diagram. (both) 
-    The red lines show known $[OIII]/H\beta$ relationships with either 
-    $[NII]\lambda 6584/H\alpha$ (left) or 
-    $[SII]\lambda 6718 + 6731/H\alpha$ (right), respectively. 
-    These relationships come from A. L. Strom et al. (2017).
+    <strong>Fig. 5.</strong> Electron density of galaxies compared to $\Delta log(R_{eff})$. A Spearman 
+    test yielded a correlation coefficient to $-0.33$ to a significance of $0.03$, showing a significant 
+    negative correlation.
   </figcaption>
 </figure>
 
