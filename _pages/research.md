@@ -57,6 +57,14 @@ The first relationship we explored was between a galaxy's $\Delta log(R_{eff})$,
 We then moved to compare each separate emission line ratio with its distribution of $\Delta log(r_{eff})$ values. We utilized Spearman tests to determine the significance of each relationship. These plots can be seen in *Figure 3.*, and the results of these tests are summarized in \textit{Table 1.} The majority of these tests yielded insignificant results, with p-values ranging from 0.06-0.98. However, the Spearman test comparing the relationship between the S32 emission line and $\Delta log(r_{eff})$ yielded a correlation coefficient of 0.27, representing a positive relationship, and a p-value of 0.06, which is just on the cusp of what is generally accepted to be a "significant" p-value. Further study is needed to determine whether this correlation is statistically significant.
 
 <figure style="text-align: center;">
+  <img src="{{ base_path }}/images/Screenshot 2025-08-22 at 1.04.38 AM.png" alt="delta log reff" width="500">
+  <figcaption>
+    <strong>Table 1.</strong> Spearman correlation coefficients and p-values for emission line ratios
+    compared to morphological parameters
+  </figcaption>
+</figure>
+
+<figure style="text-align: center;">
   <img src="{{ base_path }}/images/2x3_delta_log_reff_emission_ratios.jpg" alt="delta log reff" width="500">
   <figcaption>
     <strong>Fig. 3.</strong> Comparison of $\Delta log(R_{eff})$ with (top left) $log_{10}([NII]\lambda
@@ -91,6 +99,19 @@ The final morphological feature we examined was the electron density $n_e$ of ea
   </figcaption>
 </figure>
 
+<figure style="text-align: center;">
+  <img src="{{ base_path }}/images/Screenshot 2025-08-22 at 1.05.13 AM.png" alt="delta log reff" width="500">
+  <figcaption>
+    <strong>Table 2.</strong> Spearman correlation coefficients and p-values for electron density compared
+    to morphological parameters
+  </figcaption>
+</figure>
+
+## Conclusion 
+
+Throughout this study, we compared the integrated flux of six emission line ratios to measured morphological measurements. We used spectroscopic and morphological data from the Dawn JWST Archive of galaxies z=2.55-3.7. We then used an SNR-based Gaussian emission line fitting method and chose the line with the highest SNR across all bands. Then, we fit S\'ersic profiles to each galaxy, and interpolated this S\'ersic value and $R_{eff}$ values to rest frame wavelengths. We fit a model to remove the confounding effects of mass and redshift and to isolate the effects of size. Last, electron density was calculated using the PyNeb software (V. Luridiana et al. 2015), and then emission line ratio diagrams, including BPT diagrams, were created and relationships between emission line galaxies and morphology were explored. We found two significant results: first, a negative relationship between $\Delta log(R_{eff})$ and electron density, and second, a possible positive correlation from the comparison of $\Delta log(R_{eff})$ and the S32 emission line ratio.
+
+Overall, most of the relationships we explored throughout this study did not yield significant correlations between morphology and emission line ratios. There are a few ways to interpret these results: first, it is possible that there is little correlation between the gas properties in HII regions and the overall morphology of galaxies. Another possibility is that we are simply not examining the "right" aspects of galaxies to find connections between the two. Interpreting the physical causes of emission lines is complicated because many galaxy properties contribute to these lines. Throughout this project, we took the approach of looking for morphological correlations with the observed emission line ratios, which is relatively simple to implement but can be complicated to interpret due to the aforementioned confounding effects. Future work in this project would be to use the individual emission lines measured throughout this study to do a more detailed calculation of the physical properties of the gas in these galaxies, rather than examining emission line ratios, and look for morphological correlations with these properties. 
 
 ## Acknowledgements
 
