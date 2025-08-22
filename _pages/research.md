@@ -44,9 +44,42 @@ Four emission line ratio diagrams were created for this study, two of them being
 
 The first relationship we explored was between a galaxy's $\Delta log(R_{eff})$, meaning how extended/compact the galaxy is, and the emission line diagnostics. We began by recreating each emission line ratio diagram, coloring the data points blue if $\Delta log(R_{eff}) > 0$ and green if $\Delta log(R_{eff}) < 0$. These plots are seen in \textit{Figure 2}. We did not find any significant difference in scatter between the different $\Delta log(R_{eff})$ values for any of these plots. 
 
+<figure style="text-align: center;">
+  <img src="{{ base_path }}/images/2x2_delta_log_reff_BPT.jpg" alt="delta log reff BPT" width="500">
+  <figcaption>
+    <strong>Fig. 2.</strong> (left) N2-BPT diagram, (right) S2-BPT diagram. (both) 
+    The red lines show known $[OIII]/H\beta$ relationships with either 
+    $[NII]\lambda 6584/H\alpha$ (left) or 
+    $[SII]\lambda 6718 + 6731/H\alpha$ (right), respectively. 
+    These relationships come from A. L. Strom et al. (2017).
+  </figcaption>
+</figure>
+
 We then moved to compare each separate emission line ratio with its distribution of $\Delta log(r_{eff})$ values. We utilized Spearman tests to determine the significance of each relationship. These plots can be seen in \textit{Figure 3.}, and the results of these tests are summarized in \textit{Table 1.} The majority of these tests yielded insignificant results, with p-values ranging from 0.06-0.98. However, the Spearman test comparing the relationship between the S32 emission line and $\Delta log(r_{eff})$ yielded a correlation coefficient of 0.27, representing a positive relationship, and a p-value of 0.06, which is just on the cusp of what is generally accepted to be a "significant" p-value. Further study is needed to determine whether this correlation is statistically significant.
 
+<figure style="text-align: center;">
+  <img src="{{ base_path }}/images/2x3_delta_log_reff_emission_ratios.jpg" alt="delta log reff" width="500">
+  <figcaption>
+    <strong>Fig. 3.</strong> (left) N2-BPT diagram, (right) S2-BPT diagram. (both) 
+    The red lines show known $[OIII]/H\beta$ relationships with either 
+    $[NII]\lambda 6584/H\alpha$ (left) or 
+    $[SII]\lambda 6718 + 6731/H\alpha$ (right), respectively. 
+    These relationships come from A. L. Strom et al. (2017).
+  </figcaption>
+</figure>
+
 The second morphological feature we studied was each galaxy's S\'ersic index. As shown in \textit{Figure 4.}, we plotted each individual line ratio against the distribution of each galaxy's mean optical S\'ersic index. We again utilized Spearman tests to determine the significance of each relationship, and a summary of these results can be seen in \textit{Table 1.} No relationships between the mean optical S\'ersic index and an emission line ratio were found to be significant. 
+
+<figure style="text-align: center;">
+  <img src="{{ base_path }}/images/2x3_n_opt_mean_emission_ratios.jpg" alt="n opt mean" width="500">
+  <figcaption>
+    <strong>Fig. 4.</strong> (left) N2-BPT diagram, (right) S2-BPT diagram. (both) 
+    The red lines show known $[OIII]/H\beta$ relationships with either 
+    $[NII]\lambda 6584/H\alpha$ (left) or 
+    $[SII]\lambda 6718 + 6731/H\alpha$ (right), respectively. 
+    These relationships come from A. L. Strom et al. (2017).
+  </figcaption>
+</figure>
 
 The final morphological feature we examined was the electron density $n_e$ of each galaxy. We utilized the PyNeb software \citep{pyneb} to calculate the electron density, inputting the $[SII]6731/[SII]6717$ emission line ratio for each galaxy and assuming a fixed electron temperature of 10,000 Kelvin. We then created plots comparing the relationship between each galaxy's electron density and other morphological features, including the galaxy's mass, $\Delta log(R_{eff})$, and S\'ersic index. The plot showing electron density's relationship with $\Delta log(R_{eff})$ is shown in \textit{Figure 5}. A table summarizing the results of these tests s shown in \textit{Table 2.}
 
