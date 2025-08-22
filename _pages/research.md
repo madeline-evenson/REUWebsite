@@ -57,7 +57,7 @@ The first relationship we explored was between a galaxy's $\Delta log(R_{eff})$,
 We then moved to compare each separate emission line ratio with its distribution of $\Delta log(r_{eff})$ values. We utilized Spearman tests to determine the significance of each relationship. These plots can be seen in *Figure 3.*, and the results of these tests are summarized in \textit{Table 1.} The majority of these tests yielded insignificant results, with p-values ranging from 0.06-0.98. However, the Spearman test comparing the relationship between the S32 emission line and $\Delta log(r_{eff})$ yielded a correlation coefficient of 0.27, representing a positive relationship, and a p-value of 0.06, which is just on the cusp of what is generally accepted to be a "significant" p-value. Further study is needed to determine whether this correlation is statistically significant.
 
 <figure style="text-align: center;">
-  <img src="{{ base_path }}/images/Screenshot 2025-08-22 at 1.04.38 AM.png" alt="delta log reff" width="500">
+  <img src="{{ base_path }}/images/Screenshot 2025-08-22 at 1.04.38 AM.png" alt="delta log reff" width="400">
   <figcaption>
     <strong>Table 1.</strong> Spearman correlation coefficients and p-values for emission line ratios
     compared to morphological parameters
@@ -100,7 +100,7 @@ The final morphological feature we examined was the electron density $n_e$ of ea
 </figure>
 
 <figure style="text-align: center;">
-  <img src="{{ base_path }}/images/Screenshot 2025-08-22 at 1.05.13 AM.png" alt="delta log reff" width="500">
+  <img src="{{ base_path }}/images/Screenshot 2025-08-22 at 1.05.13 AM.png" alt="delta log reff" width="300">
   <figcaption>
     <strong>Table 2.</strong> Spearman correlation coefficients and p-values for electron density compared
     to morphological parameters
