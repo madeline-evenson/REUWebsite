@@ -100,7 +100,7 @@ The final morphological feature we examined was the electron density $n_e$ of ea
 </figure>
 
 <figure style="text-align: center;">
-  <img src="{{ base_path }}/images/Screenshot 2025-08-22 at 1.05.13 AM.png" alt="delta log reff" width="300">
+  <img src="{{ base_path }}/images/Screenshot 2025-08-22 at 1.05.13 AM.png" alt="delta log reff" width="200">
   <figcaption>
     <strong>Table 2.</strong> Spearman correlation coefficients and p-values for electron density compared
     to morphological parameters
@@ -112,12 +112,6 @@ The final morphological feature we examined was the electron density $n_e$ of ea
 Throughout this study, we compared the integrated flux of six emission line ratios to measured morphological measurements. We used spectroscopic and morphological data from the Dawn JWST Archive of galaxies z=2.55-3.7. We then used an SNR-based Gaussian emission line fitting method and chose the line with the highest SNR across all bands. Then, we fit S\'ersic profiles to each galaxy, and interpolated this S\'ersic value and $R_{eff}$ values to rest frame wavelengths. We fit a model to remove the confounding effects of mass and redshift and to isolate the effects of size. Last, electron density was calculated using the PyNeb software (V. Luridiana et al. 2015), and then emission line ratio diagrams, including BPT diagrams, were created and relationships between emission line galaxies and morphology were explored. We found two significant results: first, a negative relationship between $\Delta log(R_{eff})$ and electron density, and second, a possible positive correlation from the comparison of $\Delta log(R_{eff})$ and the S32 emission line ratio.
 
 Overall, most of the relationships we explored throughout this study did not yield significant correlations between morphology and emission line ratios. There are a few ways to interpret these results: first, it is possible that there is little correlation between the gas properties in HII regions and the overall morphology of galaxies. Another possibility is that we are simply not examining the "right" aspects of galaxies to find connections between the two. Interpreting the physical causes of emission lines is complicated because many galaxy properties contribute to these lines. Throughout this project, we took the approach of looking for morphological correlations with the observed emission line ratios, which is relatively simple to implement but can be complicated to interpret due to the aforementioned confounding effects. Future work in this project would be to use the individual emission lines measured throughout this study to do a more detailed calculation of the physical properties of the gas in these galaxies, rather than examining emission line ratios, and look for morphological correlations with these properties. 
-
-## Poster
-
-<figure style="text-align: center;">
-  <img src="{{ base_path }}/images/Evenson REU poster.pdf" alt="poster" width="500">
-</figure>
 
 ## Acknowledgements
 
@@ -148,3 +142,9 @@ Strom, A. L., Steidel, C. C., Rudie, G. C., et al. 2017, ApJ, 836, 164, doi: [10
 Vika, M., Vulcani, B., Bamford, S. P., Haubler, B., & Rojas, A. L. 2015, A&A, 577, A97, doi: [10.1051/0004-6361/201425174](https://www.aanda.org/10.1051/0004-6361/201425174)
 
 Virtanen, P., Gommers, R., Oliphant, T. E., et al. 2020, Nature Methods, 17, 261, doi: [10.1038/s41592-019-0686-2](https://www.nature.com/articles/s41592-019-0686-2)
+
+## Poster
+
+<figure style="text-align: center;">
+  <img src="{{ base_path }}/images/Evenson REU poster.pdf" alt="poster" width="600">
+</figure>
