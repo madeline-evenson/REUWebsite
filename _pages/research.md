@@ -83,7 +83,16 @@ The second morphological feature we studied was each galaxy's S\'ersic index. As
 
 The final morphological feature we examined was the electron density $n_e$ of each galaxy. We utilized the PyNeb software \citep{pyneb} to calculate the electron density, inputting the $[SII]6731/[SII]6717$ emission line ratio for each galaxy and assuming a fixed electron temperature of 10,000 Kelvin. We then created plots comparing the relationship between each galaxy's electron density and other morphological features, including the galaxy's mass, $\Delta log(R_{eff})$, and S\'ersic index. The plot showing electron density's relationship with $\Delta log(R_{eff})$ is shown in \textit{Figure 5}. A table summarizing the results of these tests s shown in \textit{Table 2.}
 
-
+<figure style="text-align: center;">
+  <img src="{{ base_path }}/images/pyneb_delta_log_reff_electron_density.jpg" alt="electron density" width="500">
+  <figcaption>
+    <strong>Fig. 5.</strong> (left) N2-BPT diagram, (right) S2-BPT diagram. (both) 
+    The red lines show known $[OIII]/H\beta$ relationships with either 
+    $[NII]\lambda 6584/H\alpha$ (left) or 
+    $[SII]\lambda 6718 + 6731/H\alpha$ (right), respectively. 
+    These relationships come from A. L. Strom et al. (2017).
+  </figcaption>
+</figure>
 
 
 ## Acknowledgements
